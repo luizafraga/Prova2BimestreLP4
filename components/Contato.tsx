@@ -23,7 +23,7 @@ export default function Contato(props: _propsContato) {
     const excluir = async () => {
         Alert.alert(
             "Confirmar Exclusão",
-            `Tem certeza que deseja excluir o contato ${props.dados.nome}?`,
+            `Tem certeza de que deseja excluir o contato "${props.dados.nome}"?`,
             [
                 {
                     text: "Cancelar",

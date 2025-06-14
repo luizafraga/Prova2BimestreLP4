@@ -37,7 +37,7 @@ export default function AdicionarScreen({ navigation }: { navigation: any }) {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Adicionar Novo Contato</Text>
+            <Text style={styles.title}>Adicionar Contato</Text>
             <TextInput
                 style={styles.input}
                 placeholder="Nome do contato"
